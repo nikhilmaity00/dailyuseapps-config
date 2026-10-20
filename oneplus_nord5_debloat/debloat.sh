@@ -4,9 +4,15 @@
 # Target Device: OnePlus Nord 5 (CPH2707 / Android 16 / OxygenOS 16.0.1)
 # Mode: Safe Disabling (pm disable-user --user 0) - 100% Non-destructive & Reversible
 # Includes: Pre/Post RAM telemetry, logging, and automatic device detection
-# Architecture: Tier 1 (100% Zero-Risk Core) active by default
-# Preserved: Games, Theme Store, Digital Wellbeing, Smart Sidebar, AOD/DeepThinker,
-#            Game Optimization (COSA), Carrier Wi-Fi, and Google Assistant/Auto
+# Architecture: Tier 1 (100% Zero-Risk Core)
+# Strictly Preserved per User Preference:
+#  - Wallpaper Carousel / Lock Screen Magazine (com.heytap.pictorial)
+#  - Games & Game Space (com.oplus.games, Google Play Games, com.oplus.cosa)
+#  - Theme Store (com.oplus.themestore)
+#  - Digital Wellbeing (com.google.android.apps.wellbeing)
+#  - Always-On Display & Wise Charging (com.oplus.deepthinker)
+#  - Smart Sidebar (com.coloros.smartsidebar)
+#  - Google Assistant, Circle to Search, Android Auto, Smart Text Selection
 # ==============================================================================
 
 set -uo pipefail
@@ -83,7 +89,7 @@ echo " OnePlus Nord 5 (OxygenOS 16.0.1) Safe Debloat Suite"
 echo " Target Device: ${DEVICE_MODEL} (Serial: ${DEVICE_ID})"
 echo " OS Build:      ${BUILD_DISPLAY} (Android ${ANDROID_VER})"
 echo " OTA Version:   ${BUILD_OTA}"
-echo " Mode:          Tier 1 (100% Zero-Risk Safe Debloat)"
+echo " Mode:          Zero-Risk Core (50 Packages)"
 echo " Session Log:   ${SESSION_LOG}"
 echo " History Log:   ${HISTORY_LOG}"
 echo "=========================================================="
@@ -111,18 +117,17 @@ log "   Used RAM:       ${PRE_USED_STR} (${PRE_USED_PCT})"
 log "----------------------------------------------------------"
 echo ""
 
-# 4. Master List of 100% Zero-Risk Packages (51 Target Packages)
+# 4. Master List of 100% Zero-Risk Packages (50 Target Packages)
 PACKAGES=(
   # ============================================================================
-  # Group 1: HeyTap Ecosystem & Ad Services (8 Packages)
-  # Pure ad engines, push marketing, lockscreen magazine promo feeds, and HeyTap cloud
+  # Group 1: HeyTap Ecosystem & Ad Services (7 Packages)
+  # (Wallpaper Carousel 'com.heytap.pictorial' EXCLUDED & PRESERVED)
   # ============================================================================
   "com.heytap.browser"                                           # HeyTap / OPPO Browser (ad-heavy web browser)
   "com.heytap.cloud"                                             # HeyTap Cloud (background cloud sync daemon, ~102MB RAM)
   "com.heytap.market"                                            # HeyTap App Market (redundant alternative app store)
   "com.heytap.market.overlay"                                    # HeyTap App Market theme overlay
   "com.heytap.mcs"                                               # Mobile Cloud Service (HeyTap push notification & ad daemon, ~157MB RAM)
-  "com.heytap.pictorial"                                         # Lock Screen Magazine / Glance ads (promotions on lock screen)
   "com.heytap.htms"                                              # HeyTap Cloud Control / OvAds (active ad-serving daemon, ~80MB RAM)
   "com.nearme.instant.platform"                                  # NearMe / HeyTap Quick Apps Instant Platform
 
@@ -147,7 +152,7 @@ PACKAGES=(
 
   # ============================================================================
   # Group 3: Commercial Bloatware, Store Portals & Preloaded Tracking (13 Packages)
-  # Shopping apps, regional portals, and Facebook background daemons
+  # (Games & Theme Store EXCLUDED & PRESERVED)
   # ============================================================================
   "com.oneplus.mall"                                             # OnePlus Store / Shopping app
   "com.oneplus.membership"                                       # Red Cable Club membership promotional portal
@@ -165,7 +170,7 @@ PACKAGES=(
 
   # ============================================================================
   # Group 4: Auxiliary ColorOS Gimmicks & Duplicate Apps (5 Packages)
-  # Preserves Smart Sidebar, stock launcher, and launcher gesture feeds
+  # (Smart Sidebar & Launcher Gestures EXCLUDED & PRESERVED)
   # ============================================================================
   "com.coloros.childrenspace"                                    # Children Space / Kid Mode
   "com.coloros.video"                                            # ColorOS stock video player (excessive permissions & ads)
@@ -175,7 +180,7 @@ PACKAGES=(
 
   # ============================================================================
   # Group 5: Google Background Fluff & Legacy Stubs (11 Packages)
-  # Preserves Google Search, Circle to Search, Google Assistant, and Android Auto
+  # (Digital Wellbeing, Google Assistant, Circle to Search & Android Auto PRESERVED)
   # ============================================================================
   "com.google.android.feedback"                                  # Google Play crash feedback reporter
   "com.google.android.partnersetup"                              # Google Partner Setup background runner
