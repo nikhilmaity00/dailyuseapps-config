@@ -1,0 +1,106 @@
+=== Debloat Session Started at 2026-10-20 16:22:16 for SM-G990E (RZCW214WE4Z) ===
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z] ----------------------------------------------------------
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]  [RAM BEFORE EXECUTION]
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]    Total RAM:      7299.92 MB (7.13 GB)
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]    Available RAM:  3080.17 MB (3.01 GB) (42.2%)
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]    Used RAM:       4219.75 MB (4.12 GB) (57.8%)
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z] ----------------------------------------------------------
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.game.gos
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.game.gamehome
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.app.spage
+[2026-10-20 16:22:16] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.slsi.telephony.silentlogging
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.rubin.app
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [SKIP - NOT INSTALLED]  com.samsung.attribution
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.oda.service
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.mfcontents
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.mygalaxy.service
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.beaconmanager
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.hiya.star
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.android.diagmonagent
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.location.nsflp2
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.spp.push
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.knox.analytics.uploader
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.aasaservice
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.imslogger
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.google.android.googlequicksearchbox
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.google.android.as
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.google.android.apps.turbo
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.google.ar.core
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.google.android.printservice.recommendation
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.scloud
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.android.easyMover
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.sec.android.easyMover.Agent
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.microsoft.appmanager
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.mdx
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.mdecservice
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.samsungpass
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.samsungpassautofill
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.storyservice
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.bixby.wakeup
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.bixbyvision.framework
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.aremojieditor
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [SKIP - NOT INSTALLED]  com.snap.camerakit.plugin.v1
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.app.camera.sticker.facearavatar.preload
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.stickercenter
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.kidsinstaller
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.app.parentalcare
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.facebook.services
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.facebook.appmanager
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.facebook.system
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       android.autoinstalls.config.samsung
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.accessory.budsunitemgr
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [ALREADY DISABLED]       com.samsung.android.spayfw
+[2026-10-20 16:22:17] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.app.hwmoduletest
+[2026-10-20 16:22:18] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.app.servicemodeapp
+[2026-10-20 16:22:18] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.app.wlantest
+[2026-10-20 16:22:18] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.app.factorykeystring
+[2026-10-20 16:22:19] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.factory.camera
+[2026-10-20 16:22:19] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.factory.cameralyzer
+[2026-10-20 16:22:19] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sem.factoryapp
+[2026-10-20 16:22:19] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.epdgtestapp
+[2026-10-20 16:22:19] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.modem.settings
+[2026-10-20 16:22:20] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.RilServiceModeApp
+[2026-10-20 16:22:20] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.phone
+[2026-10-20 16:22:20] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.ipservice
+[2026-10-20 16:22:20] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.android.app.parser
+[2026-10-20 16:22:21] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.wsomacp
+[2026-10-20 16:22:21] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.vsim.ericssonnsds.webapp
+[2026-10-20 16:22:21] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.sec.bcservice
+[2026-10-20 16:22:21] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.crane
+[2026-10-20 16:22:22] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.android.smartcallprovider
+[2026-10-20 16:22:22] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_de_de_f00
+[2026-10-20 16:22:22] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_fr_fr_f00
+[2026-10-20 16:22:22] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_it_it_f00
+[2026-10-20 16:22:22] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_es_es_f00
+[2026-10-20 16:22:23] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_es_us_f00
+[2026-10-20 16:22:23] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_pt_br_f00
+[2026-10-20 16:22:23] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_ru_ru_f00
+[2026-10-20 16:22:23] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_th_th_f00
+[2026-10-20 16:22:24] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_vi_vn_f00
+[2026-10-20 16:22:24] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_id_id_f00
+[2026-10-20 16:22:24] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.samsung.SMT.lang_pl_pl_f00
+[2026-10-20 16:22:24] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.egg
+[2026-10-20 16:22:25] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.dreams.phototable
+[2026-10-20 16:22:25] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.bluetoothmidiservice
+[2026-10-20 16:22:25] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.calllogbackup
+[2026-10-20 16:22:25] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.providers.partnerbookmarks
+[2026-10-20 16:22:26] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.hotwordenrollment.okgoogle
+[2026-10-20 16:22:26] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.android.hotwordenrollment.xgoogle
+[2026-10-20 16:22:26] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.google.android.onetimeinitializer
+[2026-10-20 16:22:26] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.google.android.partnersetup
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]  [OK - DISABLED NOW]     com.google.android.feedback
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z] [+] Package Summary for SM-G990E (RZCW214WE4Z):
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]     Newly disabled:          39
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]     Already disabled:        43
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]     Not found on device:     2
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]     Failed / Errors:         0
+[2026-10-20 16:22:27] [SM-G990E:RZCW214WE4Z]     Total target packages:   84
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z] ==========================================================
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]  [RAM COMPARISON & RECLAIMED MEMORY]
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    Total RAM:              7299.92 MB (7.13 GB)
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    Available (Before):     3080.17 MB (3.01 GB) (42.2%)
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    Available (After):      3167.53 MB (3.09 GB) (43.4%)
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    Used RAM (Before):      4219.75 MB (4.12 GB) (57.8%)
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    Used RAM (After):       4132.39 MB (4.04 GB) (56.6%)
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z]    >> Memory Freed Now:    +87.36 MB (0.09 GB) immediately available!
+[2026-10-20 16:22:28] [SM-G990E:RZCW214WE4Z] ==========================================================
